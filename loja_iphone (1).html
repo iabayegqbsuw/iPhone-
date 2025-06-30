@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de iPhones</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f6f6f6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .produto {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+    }
+    .produto img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .produto h2 {
+      font-size: 20px;
+      margin: 10px 0 5px;
+    }
+    .produto p {
+      color: #333;
+      font-size: 16px;
+    }
+    .whatsapp {
+      text-align: center;
+      margin: 30px 0 10px;
+    }
+    .whatsapp a {
+      background-color: #25D366;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    .pagamento {
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 30px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Loja de iPhones 🔥</h1>
+    <p>Modelos novos e seminovos com garantia</p>
+  </header>
+
+  <section class="produtos">
+    <div class="produto">
+      <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch?wid=940&hei=1112&fmt=png-alpha&.v=1692923778661" alt="iPhone 15 Pro Max">
+      <h2>iPhone 15 Pro Max</h2>
+      <p>128GB - R$ 7.500</p>
+    </div>
+
+    <div class="produto">
+      <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-finish-select-202209-6-1inch-blue?wid=940&hei=1112&fmt=png-alpha&.v=1661027788993" alt="iPhone 14">
+      <h2>iPhone 14</h2>
+      <p>128GB - R$ 4.800</p>
+    </div>
+
+    <div class="produto">
+      <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-finish-select-202207-6-1inch-green_AV1_GEO_BR?wid=940&hei=1112&fmt=png-alpha&.v=1657641867364" alt="iPhone 13">
+      <h2>iPhone 13</h2>
+      <p>128GB - R$ 3.900</p>
+    </div>
+  </section>
+
+  <div class="pagamento">
+    <p>💰 Aceitamos Pix e Cartão de Crédito</p>
+  </div>
+
+  <div class="whatsapp">
+    <a href="https://wa.me/558194448913" target="_blank">📲 Fale comigo no WhatsApp</a>
+  </div>
+
+</body>
+</html>
